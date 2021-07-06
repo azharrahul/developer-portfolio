@@ -3,17 +3,30 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
+}
+p{
+    background-color: rgb(255, 126, 5);
+            color: white;
+            border: 5px solid rgb(19, 19, 17);
+            border-radius: 15px;
+            margin: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: justify;
 }
 .orange-color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 70px;
 }
 .half-width{
     width: 50%;
-    padding-left: 3%;
+    padding-left: 2%;
 
 }
 .half-width img{
@@ -30,4 +43,9 @@ section{
 .top-bannar{
     background-image: url(developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
+}
+.Dream-Big{
+    background-image: url(developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
